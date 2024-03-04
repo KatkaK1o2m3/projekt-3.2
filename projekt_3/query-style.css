@@ -1,0 +1,101 @@
+@media (min-width: 600px) {
+  header nav {
+    display: block !important;
+  }
+
+  nav li {
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 30px;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .welcome {
+    margin: 40px;
+    background-image: none;
+    min-height: calc(20vh - 70px);
+  }
+
+  .welcome h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-left: 150px;
+  }
+
+  .about-wrapper {
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+  }
+
+  .about-text {
+    font-size: 25px;
+    flex: 1;
+    padding-top: 30px;
+  }
+
+  .about-image {
+    flex: 1;
+  }
+
+  .about-image img {
+    display: block;
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .gallery {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .gallery-wrapper {
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .my-img1 .my-img2 .my-img3 {
+    width: calc(80% / 3 - 20px / 3);
+  }
+
+  .reviews-wrapper {
+    width: 80%;
+    font-size: 20px;
+  }
+
+  .reviews-people {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 0;
+    gap: 30px;
+  }
+
+  .they {
+    flex: 1;
+    padding-top: 1rem;
+  }
+
+  .main {
+    width: 30%;
+  }
+
+  .main-text {
+    margin-top: 100px;
+    width: 50%;
+    font-size: 25px;
+  }
+
+  .main-wrapper {
+    display: flex;
+    gap: 5px;
+  }
+
+  .form h1 {
+    font-size: 40px;
+  }
+}
